@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo systemctl stop viseo-1080
