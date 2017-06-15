@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sudo systemctl start graba-video-1080-30f
