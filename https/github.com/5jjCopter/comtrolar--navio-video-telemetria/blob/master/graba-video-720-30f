@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo systemctl start graba-video-720-30f
