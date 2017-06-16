@@ -10,4 +10,4 @@ Restart=always
 
 [Install]
 WantedBy=multi-user.target
-Alias=graba-video-720.service
+Alias=graba-video-720.service
