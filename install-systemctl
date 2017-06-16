@@ -8,10 +8,10 @@ sudo chmod 775 graba-video-720-30f.service
 sudo chmod 775 video-1080.service
 sudo chmod 775 video-720.service
 sudo chmod 775 temperatura.service
-sudo cp temperatura.sevice /lib/systend/system
-sudo cp graba-video-1080-30f.service /lib/systend/system
-sudo cp graba-video-720-30f.service /lib/systend/system
-sudo cp video-1080.service /lib/systend/system
-sudo cp video-720.sevice /lib/systend/system
+sudo cp temperatura.sevice /lib/systemd/system
+sudo cp graba-video-1080-30f.service /lib/systemd/system
+sudo cp graba-video-720-30f.service /lib/systemd/system
+sudo cp video-1080.service /lib/systemd/system
+sudo cp video-720.sevice /lib/systemd/system
 cd /home/pi
 sudo rm -rf install-systemctl-master
