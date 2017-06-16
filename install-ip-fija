@@ -32,4 +32,7 @@ sudo rm -rf navio-master
 
 cd
 
+sudo rm -rf navio-master
+
+cd
 
