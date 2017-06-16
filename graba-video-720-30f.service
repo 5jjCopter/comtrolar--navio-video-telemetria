@@ -3,7 +3,7 @@ Description=graba-video-720-30f
 After=network.target user.slice
 
 [Service]
-ExecStart=/home/pi/comtrola--navio-video-telemetria/graba-video-
+ExecStart=/home/pi/comtrola--navio-video-telemetria/graba-video-720-30f
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=always
 
