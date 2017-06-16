@@ -1,12 +1,11 @@
 [Unit]
 Description=video
-After=network.target user.slice
+After=multi-user.target
 
 [Service]
-ExecStart=/home/pi/comtrola--navio-video-telemetria/video
-ExecReload=/bin/kill -HUP $MAINPID
+TimeoutStartSec=0
+ExecStart=/home/pi/comtrolar--navio-video-telemetria-master/video
 Restart=always
 
 [Install]
 WantedBy=multi-user.target
-Alias=video.sevice
