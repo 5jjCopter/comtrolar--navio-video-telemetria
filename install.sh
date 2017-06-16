@@ -7,7 +7,7 @@ sudo chmod 775 permisos.sh
 sudo ./permisos.sh
 sudo ./install-systemctl
 sudo ./install-ip-fija
-sudo ./install-solo-video
+cd
 sudo ./monta-automatica-pendrive
 sudo ./actualizacion-imagen
 sudo reboot
