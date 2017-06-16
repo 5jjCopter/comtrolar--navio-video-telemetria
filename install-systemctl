@@ -1,7 +1,7 @@
-sudo wget 
+sudo wget https://github.com/5jjCopter/comtrolar--navio-video-telemetria/archive/master.zip
 sudo unzip master.zip
 sudo rm master.zip
-cd install-systemctl-master
+cd comtrolar--navio-video-telemetria-master
 sudo chmod 775 video.service
 sudo chmod 775 graba-video-1080-30f.service
 sudo chmod 775 graba-video-720-30f.service
