@@ -1,11 +1,11 @@
 
 [Unit]
-Description=video-720-30f
+Description=video-720
 After=multi-user.target
 
 [Service]
 TimeoutStartSec=0
-ExecStart=/home/pi/comtrolar--navio-video-telemetria-master/video-720-30f
+ExecStart=/home/pi/comtrolar--navio-video-telemetria-master/video-720
 Restart=always
 
 [Install]
