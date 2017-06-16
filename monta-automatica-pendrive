@@ -15,12 +15,14 @@ chmod 775 install-usbmount
 chmod 775 install-ntfs-3g
 
 cd /home/pi/monta-automatica-pendrive-master
-./install-usbmount
+
+sudo ./install-usbmount
 
 cd
 
 cd /home/pi/monta-automatica-pendrive-master
-./install-ntfs-3g
+
+sudo ./install-ntfs-3g
 
 cd /home/pi/monta-automatica-pendrive-master
 
@@ -28,7 +30,7 @@ cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
 
 cd /etc/usbmount
 
-rm usbmount.conf.orig
+sudo rm usbmount.conf.orig
 
 cd /home/pi/monta-automatica-pendrive-master
 
@@ -42,7 +44,7 @@ cp graba-video.service /lib/systemd/system
 
 cd /home/pi
 
-rm -rf monta-automatica-pendrive-master
+sudo rm -rf monta-automatica-pendrive-master
 
 sudo chmod 775 graba-video
 
