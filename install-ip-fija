@@ -1,3 +1,5 @@
+cd
+
 sudo wget https://github.com/5jjCopter/navio/archive/master.zip
 
 sudo unzip master.zip
