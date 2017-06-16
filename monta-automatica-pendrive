@@ -1,26 +1,49 @@
 cd 
 wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
+
 sudo unzip master.zip
+
 sudo rm master.zip
+
 cd
+
 cd monta-automatica-pendrive-master
+
 chmod 775 install-usbmount
+
 chmod 775 install-ntfs-3g
+
 cd /home/pi/monta-automatica-pendrive-master
 ./install-usbmount
+
 cd
+
 cd /home/pi/monta-automatica-pendrive-master
 ./install-ntfs-3g
+
 cd /home/pi/monta-automatica-pendrive-master
+
 cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
+
 cd /etc/usbmount
+
 rm usbmount.conf.orig
+
 cd /home/pi/monta-automatica-pendrive-master
+
 cp usbmount.conf.orig /etc/usbmount
+
 cd /home/pi/monta-automatica-pendrive-master
+
 cp graba-video /home/pi
+
 cp graba-video.service /lib/systemd/system
+
 cd /home/pi
+
 rm -rf monta-automatica-pendrive-master
+
 sudo chmod 775 graba-video
+
 sudo rm -rf graba-video
+
