@@ -1,3 +1,0 @@
-#!/bin/sh
-
-sudo systenctl start graba-video-720-30f
