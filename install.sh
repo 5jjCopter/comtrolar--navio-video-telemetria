@@ -7,7 +7,6 @@ sudo chmod 775 permisos.sh
 sudo ./permisos.sh
 sudo ./install-systemctl
 sudo ./install-ip-fija
-cd comtrolar--navio-video-telemetria-master
 sudo ./monta-automatica-pendrive
 sudo ./actualizacion-imagen
 sudo reboot
