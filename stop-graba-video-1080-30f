@@ -1,3 +1,0 @@
-#!/bin/sh
-
-sudo systemctl stop graba-video-1080-30f
