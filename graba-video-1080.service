@@ -1,11 +1,11 @@
 
 [Unit]
-Description=video-1080-30f
+Description=video-1080
 After=multi-user.target
 
 [Service]
 TimeoutStartSec=0
-ExecStart=/home/pi/comtrolar--navio-video-telemetria-master/video-1080-30f
+ExecStart=/home/pi/comtrolar--navio-video-telemetria-master/video-1080
 Restart=always
 
 [Install]
