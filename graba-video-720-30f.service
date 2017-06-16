@@ -1,0 +1,12 @@
+[Unit]
+Description=graba-video-720-30f
+After=network.target user.slice
+
+[Service]
+ExecStart=/home/pi/comtrola--navio-video-telemetria/graba-video-
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+Alias=graba-video-720-30f
