@@ -8,10 +8,10 @@ sudo chmod 775 graba-video-720-30f.service
 sudo chmod 775 video-1080.service
 sudo chmod 775 video-720.service
 sudo chmod 775 temperatura.service
-sudo cp temperatura.service /lib/systemd/system
-sudo cp graba-video-1080-30f.service /lib/systemd/system
-sudo cp graba-video-720-30f.service /lib/systemd/system
-sudo cp video-1080.service /lib/systemd/system
-sudo cp video-720.service /lib/systemd/system
+sudo cp temperatura.service /etc/systemd/system
+sudo cp graba-video-1080-30f.service /etc/systemd/system
+sudo cp graba-video-720-30f.service /etc/systemd/system
+sudo cp video-1080.service /etc/systemd/system
+sudo cp video-720.service /etc/systemd/system
 cd /home/pi
 
