@@ -14,4 +14,4 @@ sudo cp graba-video-720-30f.service /lib/systemd/system
 sudo cp video-1080.service /lib/systemd/system
 sudo cp video-720.service /lib/systemd/system
 cd /home/pi
-sudo rm -rf install-systemctl-master
+
