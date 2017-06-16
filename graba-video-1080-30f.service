@@ -1,12 +1,13 @@
+
 [Unit]
-Description=graba-video-1080-30f
-After=network.target user.slice
+Description=video-1080-30f
+After=multi-user.target
 
 [Service]
-ExecStart=/home/pi/comtrola--navio-video-telemetria/graba-video-1080-30f
-ExecReload=/bin/kill -HUP $MAINPID
+TimeoutStartSec=0
+ExecStart=/home/pi/comtrolar--navio-video-telemetria-master/video-1080-30f
 Restart=always
 
 [Install]
 WantedBy=multi-user.target
-Alias=graba-video-1080-30f.service
+
