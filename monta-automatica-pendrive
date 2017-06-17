@@ -10,9 +10,9 @@ cd
 
 cd monta-automatica-pendrive-master
 
-chmod 775 install-usbmount
+sudo chmod 775 install-usbmount
 
-chmod 775 install-ntfs-3g
+sudo chmod 775 install-ntfs-3g
 
 cd /home/pi/monta-automatica-pendrive-master
 
