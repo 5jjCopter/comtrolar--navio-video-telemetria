@@ -17,7 +17,7 @@ El solo realiza la instalacion de todos los scripts de nuestros botones en el pr
 
 El programa llamado Raspberry SSH lo podeis descargar de aqui:https://play.google.com/store/apps/details?id=uk.co.knowles_online.raspberryssh&hl=es
 
-Aqui encontrareis el archivo de configuracion para los botones:https://drive.google.com/file/d/0B3LYYl80mki7N0pQMFBCMWNIMVU/view?usp=sharing
+Aqui encontrareis el archivo de configuracion:https://drive.google.com/file/d/0B3LYYl80mki7MTI1Nnd1VVhfalU/view?usp=drivesdk
 
 Entrais en el explorador de archivos en sdcard/Android/data/uk.co.knowles_online.ras/files  y hay pegais el archivo descargado previamente llamado 5jjcopter.txt
 
