@@ -12,5 +12,6 @@ sudo chmod 775 install-solo-video
 sudo chmod 775 monta-automatica-pendrive
 sudo chmod 775 actualizacion-imagen
 sudo chmod 775 install-ip-fija 
+sudo chmod 775 mavproxy
 
 cd /home/pi
