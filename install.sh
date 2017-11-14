@@ -15,7 +15,7 @@ cd
 sudo ./monta-automatica-pendrive
 cd /home/pi
 
-sudo rm -rf monta-automatica-pendrive-master
+sudo rm -rf comtrolar--navio-video-telemetria-master
 
 sudo wget https://github.com/5jjCopter/navio/archive/master.zip
 
