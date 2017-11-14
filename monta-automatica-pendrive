@@ -16,13 +16,13 @@ sudo chmod 775 install-ntfs-3g
 
 cd /home/pi/monta-automatica-pendrive-master
 
-sudo ./install-usbmount
+sudo apt-get install-usbmount
 
 cd
 
 cd /home/pi/monta-automatica-pendrive-master
 
-sudo ./install-ntfs-3g
+sudo apt-get install-ntfs-3g
 
 cd /home/pi/monta-automatica-pendrive-master
 
