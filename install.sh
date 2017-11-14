@@ -26,25 +26,6 @@ sudo wget https://github.com/5jjCopter/navio/archive/master.zip
 
 sudo unzip master.zip
 sudo rm master.zip
-cd
-
-cd /etc/network
-
-sudo rm interfaces
-
-cd /etc/wpa_supplicant
-
-sudo rm wpa_supplicant.conf
-cd
-cd navio-master
-
-sudo chmod 775 interfaces
-
-sudo chmod 775 wpa_supplicant.conf
-
-sudo cp interfaces /etc/network
-
-sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
 
 cd
 
