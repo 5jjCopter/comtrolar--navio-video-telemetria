@@ -6,13 +6,21 @@ cd
 cd comtrolar--navio-video-telemetria-master
 sudo chmod 775 permisos.sh
 sudo chmod 775 install-systemctl
-sudo chmod 775 monta-automatica-pendrive
 sudo ./permisos.sh
 sudo ./install-systemctl
-sudo ./monta-automatica-pendrive
+cd
+sudo wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
+sudo unzip master.zip
+cd monta-automatica-pendrive-master
+sudo chmod 775 instalar-montar-pendrive
+sudo ./instalar-montar-pendrive
 cd /home/pi
 
 sudo rm -rf comtrolar--navio-video-telemetria-master
+
+sudo rm -rf monta-automatica-pendrive/archive-master
+
+sudo rm master.zip
 
 sudo wget https://github.com/5jjCopter/navio/archive/master.zip
 
@@ -38,11 +46,7 @@ sudo cp interfaces /etc/network
 
 sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
 
-sudo cp mavproxy.py /home/pi
-
 cd
 
 sudo rm -rf navio-master
-cd comtrolar--navio-video-telemetria-master
-sudo ./actualizacion-imagen
 sudo reboot
