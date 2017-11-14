@@ -1,11 +1,3 @@
-cd 
-
-wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
-
-sudo unzip master.zip
-
-sudo rm master.zip
-
 cd
 
 cd monta-automatica-pendrive-master
