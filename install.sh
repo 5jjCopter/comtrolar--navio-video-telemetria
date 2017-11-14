@@ -9,9 +9,6 @@ sudo chmod 775 install-systemctl
 sudo chmod 775 monta-automatica-pendrive
 sudo ./permisos.sh
 sudo ./install-systemctl
-sudo cp monta-automatica-pendrive /home/pi
-cd
-
 sudo ./monta-automatica-pendrive
 cd /home/pi
 
