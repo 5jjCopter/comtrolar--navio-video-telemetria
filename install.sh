@@ -32,7 +32,7 @@ sudo cp interfaces /etc/network
 
 sudo cp wpa_supplicant.conf /etc/wpa_supplicant/wpa_supplicant.conf
 
-sudo cp mavproxy /home/pi
+sudo cp mavproxy.py /home/pi
 
 cd
 
