@@ -1,5 +1,9 @@
 cd
 
+sudo wget https://github.com/5jjCopter/monta-automatica-pendrive/archive/master.zip
+
+sudo unzip master.zip
+
 cd monta-automatica-pendrive-master
 
 sudo chmod 775 install-usbmount
