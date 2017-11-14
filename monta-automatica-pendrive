@@ -16,31 +16,7 @@ sudo chmod 775 install-ntfs-3g
 
 cd /home/pi/monta-automatica-pendrive-master
 
-sudo apt-get update
-
-sudo apt-get upgrade
-
-sudo dpkg --configure -a
-
-sudo apt-get install usbmount -y --force-yes
-
-sudo apt-get install ntfs-3g -y --force-yes
-
-cd /home/pi/monta-automatica-pendrive-master
-
-sudo cp /etc/usbmount/usbmount.conf /etc/usbmount/usbmount.conf.orig
-
-cd /etc/usbmount
-
-sudo rm usbmount.conf.orig
-
-cd /home/pi/monta-automatica-pendrive-master
-
-sudo cp usbmount.conf.orig /etc/usbmount
-
-cd /home/pi/monta-automatica-pendrive-master
-
- sudo cp graba-video /home/pi
+sudo cp graba-video /home/pi
 
 sudo cp graba-video.service /lib/systemd/system
 
