@@ -6,8 +6,6 @@ sudo chmod 775 install-usbmount
 
 sudo chmod 775 install-ntfs-3g
 
-cd /home/pi/monta-automatica-pendrive-master
-
 sudo cp graba-video /home/pi
 
 sudo cp graba-video.service /lib/systemd/system
