@@ -16,7 +16,7 @@ sudo chmod 775 instalar-montar-pendrive
 sudo ./instalar-montar-pendrive
 cd /home/pi
 
-sudo rm -rf comtrolar--navio-video-telemetria-master
+#sudo rm -rf comtrolar--navio-video-telemetria-master
 
 sudo rm -rf monta-automatica-pendrive/archive-master
 
